@@ -94,7 +94,7 @@ def clinet_sender(buffer):
     try:
         client.connect((target, port))
 
-        if len(buffer)
+        if len(buffer):
             clinet.send(buffer)
 
         while True:
