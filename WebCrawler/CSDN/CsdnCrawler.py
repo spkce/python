@@ -17,7 +17,7 @@ headers['Referer'] = 'https://passport.csdn.net/account/login'
 
 value = {}
 value['username'] = 'm15188159686@163.com'
-value['password'] = 'jk12345yu'
+value['password'] = 'Ajk12345yu'
 value['lt'] = 'LT-129493-lYxOUdgttXK3p6SoFZWg94ZPAZU6CW'
 value['execution'] = 'e5s1'
 value['_eventId'] = 'submit'
@@ -43,11 +43,20 @@ response = opener.open(url_login, data=data)
 
 cookie.save(ignore_discard=True, ignore_expires=True)
 
+a={}
+
 for item in cookie:
     print 'Name = '+item.name
     print 'Value = '+item.value
+    a[item.name] = item.value
 
-response = opener.open('http://msg.csdn.net/letters')
+data = urllib.urlencode(a) 
+
+print data
+
+#opener.addheaders[("Cookie",data)]
+request = urllib2.Request('http://msg.csdn.net/letters')
+response = opener.open(request)
 
 f = open('csdn_index.html', 'w')
 f.write(response.read());
