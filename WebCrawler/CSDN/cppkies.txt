@@ -2,7 +2,14 @@
 # http://curl.haxx.se/rfc/cookie_spec.html
 # This is a generated file!  Do not edit.
 
-.csdn.net	TRUE	/	FALSE	1735689600	dc_session_id	10_1517409327365.604617
-.csdn.net	TRUE	/	FALSE	1735689600	uuid_tt_dd	10_19425472550-1517409327365-517589
-passport.csdn.net	FALSE	/	FALSE		JSESSIONID	39339BEC1E63A223E2408B5AF0AA4402.tomcat2
-passport.csdn.net	FALSE	/	TRUE	1520001325	LSSC	LSSC-110644-DCIlE5AcyRcXDUBFFpvXyBqlPkfMhi-passport.csdn.net
+.csdn.net	TRUE	/	FALSE		AU	D3B
+.csdn.net	TRUE	/	FALSE	1549555910	BT	1518019910550
+.csdn.net	TRUE	/	FALSE	1549555910	UN	u013502502
+.csdn.net	TRUE	/	FALSE		UserInfo	pcCTYGO7iq6%2F%2BmoupKZ9DyvVx%2B784PFHHAYknS%2FG89oOSe9KikN%2B7KRXyBJ444N73wwGLo1D4gHGZB7vlVKRS7FLUdDrF2Ztimurhjct2Od%2FhN4r55CL8bRCOH896I71n%2FASM4UvxMJHe%2BlPfxUjCA%3D%3D
+.csdn.net	TRUE	/	FALSE		UserName	u013502502
+.csdn.net	TRUE	/	FALSE		UserNick	voidspice
+.csdn.net	TRUE	/	FALSE	1735689600	dc_session_id	10_1518019910106.269861
+.csdn.net	TRUE	/	FALSE	1735689600	uuid_tt_dd	10_2483369120-1518019910106-802440
+passport.csdn.net	FALSE	/	TRUE		CASTGC	TGT-45822-PnKZZxpl0fkX5vPrvbTR5Vafi9ARQt9eGf5yMslEIOe7ZUQVik-passport.csdn.net
+passport.csdn.net	FALSE	/	FALSE		JSESSIONID	D11E4ED86EB2ED138E7409373587AE2E.tomcat1
+passport.csdn.net	FALSE	/	TRUE	1520611910	LSSC	LSSC-568206-exwfyXdZ4up1VpgiXf4TpVwqnVosYI-passport.csdn.net
